@@ -316,9 +316,10 @@ footer{
 ------------------------------*/
 
 .header-main{
-    width: 550px;
+    width: 390px;
     height: 700px;
-    background-color: #2D25A0;
+    
+    
 }
 
 .header-container{
@@ -331,23 +332,17 @@ footer{
 }
 
  .banner{
-    width: 520px;
-    height: 690px;
+    width: 390px;
+    height: 700px;
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-     
-
-         
+    flex-direction: column;
+    background-color: #2D25A0;
+      
 }
 
  .banner-left{
-    width: 60%;
-    display: flex;
-    flex-direction: column;   
-    padding-top: 100px; 
-       
-
+    width: 50%;
+    padding-top: 100px;
     
 }
 
@@ -377,14 +372,14 @@ footer{
 }
 
 .banner-image img{
-    width: 340px;
-    Height :260px;
+    width: 300px;
+    Height :250px;
     transition: width, height, .5s ease-out;
 }
 
 .banner-image:hover img{
-    width: 380px;
-    height: 320px;
+    width: 350px;
+    height: 290px;
 }
 
 /*------------- --------------
@@ -392,13 +387,13 @@ footer{
 ------------------------------*/
 
 .players{
-    width: 490px;
+    width: 390px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
-    padding-left: 30px;
+    margin-top: 65px;
+    padding-left: 90px;
     
 }
 
@@ -407,24 +402,26 @@ footer{
 ------------------------------*/
 
 .live-matches{
-    width: 100%;
+    width: 390px;
     display: flex;
     flex-direction: column;
     
 }
 
 .live-matches h2{
+    display: block;
     text-align: center;
     font-weight: bold;
     font-size: 32px;
     padding-top: 20px;
-    padding-left: 35px;
+    padding-left: 90px;
+    
 }
 
 .live-video iframe{
     width: 450px;
     height:350px;
-    padding-left: 30px;
+    padding-left: 170px;
 }
 
 .match-schedule{
