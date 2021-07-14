@@ -1,0 +1,458 @@
+/* Google Fonts. */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;  
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*------------- --------------
+---------Header Styles -----
+------------------------------*/
+
+.header-main{
+    width: 1450px;
+    height: 677px;
+    background-color: #2D25A0;
+
+}
+
+.header-container{
+    padding-top: 42px;
+   
+}
+
+.navbar{
+    width: 1160px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-left: 156px;    
+        
+}
+
+
+.menu-bar ul li{
+
+    display: inline-block;
+    padding-right: 36px; 
+    
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;   
+    border-radius: 5px;
+    padding: 5px 7px;
+
+}
+.menu-bar ul li a.active, a:hover{
+    border: 1px solid white;
+    transition: 1s;
+}
+
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    width: 123px;
+    height: 45px;
+    background-color: #E02C6D;
+      
+}
+
+.login img{
+    width: 22px
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+}
+
+.login a:hover{
+    
+    color: rgb(219, 196, 196)
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+    height: 590px;
+    padding-left: 156px;
+}
+
+.banner-left{
+    width: 50%;
+    padding-top: 121px;
+    
+}
+
+.banner-text{
+
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: white;
+    padding-bottom: 27px;
+
+}
+
+
+.call-to-action a{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    Padding: 10px 27px;
+}
+
+.call-to-action a:hover{
+    color: rgb(219, 196, 196);
+}
+
+
+
+.fa-arrow-right{
+    padding-left: 8px;
+}
+
+.banner-right{
+    width: 50%;
+    padding-top: 67px;
+
+}
+.banner-image img{
+    width: 556px;
+    height: 438px;
+    transition: width, height, .5s ease-out;   
+}
+
+.banner-image:hover img{
+    width: 600px;
+    height: 500px;
+}
+
+/*------------- --------------
+---------All Players Details -----
+------------------------------*/
+
+
+
+.main-container{
+    width: 100%;
+    height: auto;
+}
+
+.players{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,330px);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px;
+    margin-top: 70px;
+}
+
+.player{
+    width: 300px;
+    height: 455px;
+    padding: 15px;
+    margin-right: 15px;
+    box-shadow: -3px -3px 20px 3px #e9e5e5;    
+}
+
+
+
+.player-image img{
+    width: 100%;
+    
+}
+
+.player-details h2{
+    display: block;
+    width: 300px;
+    height: 40px;
+}
+
+.player-details{
+    text-align: justify;
+}
+
+
+/*------------- --------------
+---------Watch Live Match -----
+------------------------------*/
+
+.live-matches{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.live-matches h2{
+    font-weight: bold;
+    font-size: 55px;
+    margin: 30px 0;
+    padding-top: 20px;
+}
+
+.live-video{
+    padding: 50px 0;
+}
+
+
+/*------------- --------------
+---------Match Schedule --------
+------------------------------*/
+
+.match-schedule{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 20px;
+
+}
+
+.match-schedule h2{
+    font-weight: bold;
+    font-size: 55px;
+    margin: 30px 0;
+    padding-top: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    
+}
+
+
+td, th{
+    border: 1px solid rgb(85, 105, 160);
+    padding: 5px 25px;
+    
+}
+
+td:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+/*------------- --------------
+---------Footer style --------
+------------------------------*/
+
+footer{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    box-shadow: -3px -3px 20px 3px #e9e5e5;
+}
+
+.footer-image img{
+    Width: 485px;
+    Height: 110px;
+
+}
+
+
+.social-icons{
+       
+    padding:10px 15px;
+    font-size: 28px;
+   }
+
+.social-icons ul li{
+    display: inline;
+    padding: 0 5px;
+
+}
+
+.social-icons ul li a{
+    text-decoration: none;
+    display: inline;
+}
+
+.social-icons ul li a:hover{
+    color: rgb(207, 189, 189);
+}
+
+.footer-para{
+    font-size: 20px;
+    
+}
+
+@media screen and (max-width:667px){
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*------------- --------------
+---------Header Styles -----
+------------------------------*/
+
+.header-main{
+    width: 490px;
+    height: 750px;
+    background-color: #2D25A0;
+}
+
+.header-container{
+    padding-top: 0;
+   
+}
+
+ .navbar{
+    display: none;
+}
+
+ .banner{
+    width: 490px;
+    height: 675px;
+    display: flex;
+    flex-direction: column;   
+    padding-left: 60px;
+      
+}
+
+ .banner-left{
+    
+    display: flex;
+    flex-direction: column;   
+    padding-top: 100px;
+}
+
+.banner-text{
+    
+    font-size: 36px;
+    line-height: 50px;
+    color: white; 
+
+}  
+
+.call-to-action a{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    Padding: 8px 15px;
+}
+
+.call-to-action a:hover{
+    color: rgb(219, 196, 196);
+}
+
+.banner-right{
+    width: 50%;
+    padding-bottom: 60px;
+       
+}
+
+.banner-image img{
+    width: 320px;
+    Height :250px;
+    transition: width, height, .5s ease-out;
+}
+
+.banner-image:hover img{
+    width: 380px;
+    height: 320px;
+}
+
+/*------------- --------------
+---------All Players Details -----
+------------------------------*/
+
+.players{
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 16px;
+    
+}
+
+/*------------- --------------
+---------Watch Live Match -----
+------------------------------*/
+
+.live-matches{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.live-matches h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-left: 16px;
+}
+
+.live-video iframe{
+    width: 400px;
+    height:350px;
+    padding-left: 16px;
+}
+
+.match-schedule{
+    display: none;
+}
+
+
+/*------------- --------------
+---------Footer style --------
+------------------------------*/
+
+footer{
+    width: 540px;
+    height: 170px;
+    display: flex;
+    flex-direction: column; 
+    padding-bottom: 120px;
+     
+}
+
+.footer-image img{
+    Width: 350px;
+    
+}
+
+
+.social-icons{       
+    font-size: 25px;
+}
+
+
+.social-icons ul li a:hover{
+    color: rgb(207, 189, 189);
+}
+
+
+}
+
